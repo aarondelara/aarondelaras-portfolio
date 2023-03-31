@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    padding: 20px 10%;
+    background-color: #000000;
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+header li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0% 20px;
+}
+
+.nav-links li a:hover {
+    color: rgb(81, 207, 155);
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(103, 179, 115);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(8, 90, 0);
+}
+
+.aaron {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/aaron.jpg");
+    background-size: cover;
+    background-position: all;
+}
+
+.aaron p {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+aside h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+}
+
+div {
+    border-style: solid;
+    border-top: black;
+    border-bottom: black;
+    border-right: black;
+    border-color: rgb(75, 190, 75);
+}
+
+
+.contact-info li {
+    list-style: none;
+    display: inline-block;
+    padding: 1.8% 20px;
+}
+
+.contact-me section {
+    width: max-content;
+    height: max-content;
+    margin-bottom: auto;
+    padding: center;
+    
+}
+
+
+
