@@ -8,4 +8,4 @@ This is my portfolio. Here I have my favorite projects that I have either create
 
 https://github.com/aarondelara/aarondelaras-portfolio
 
-<img src "../assets/images/portfolio.jpg" alt="portfolio website">
+![My Image](../aarondelaras-portfolio/assets/images/portfolio.jpg)
