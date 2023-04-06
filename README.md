@@ -8,4 +8,4 @@ This is my portfolio. Here I have my favorite projects that I have either create
 
 https://github.com/aarondelara/aarondelaras-portfolio
 
-![My Image](../aarondelaras-portfolio/assets/images/portfolio.jpg)
+![My Remote Image](../aarondelaras-portfolio/assets/images/portfolio.jpg)
