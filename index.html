@@ -12,57 +12,55 @@
 
 <body>
     <header>
-        <h1>Aaron DeLara</h1>
+        <h1><b>Aaron DeLara</b></h1>
         <nav>
             <ul class="nav-links">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li class="nav-links"><a href="#about-section">About Me</a></li>
+                <li class="nav-links"><a href="#work-section">Work</a></li>
+                <li class="nav-links"><a href="#resume">Resume</a></li>
             </ul>
         </nav>
-        <a class="contact" href="#contact-me"><button>Contact Me</button></a>
+        <a class="contact" href="#contact-section"><button>Contact Me</button></a>
     </header>
 
-    <section class="aaron">
-        <p>hi everybody hello</p>
+    <section class="banner">
+        <p><b>My favorite piece of fiction, One Piece.</b></p>
     </section>
-    <!-- DONT FORGET TO ADD SUBTITLES IN THE "AARON" SECTION!!!!!!!!!!-->
+    <!-- DONT FORGET TO ADD SUBTITLES IN THE "ONE PIECE" SECTION!!!!!!!!!!-->
 
     <main> 
-        <aside>
-            <h2 id="about-me" class="about-me">About Me</h2>
-            <h2 id="work" class="work">Work</h2>
-            <h2 id="resume" class="resume">Resume</h2>
-            <h2 id="contact-me" class="contact">Contact Me</h2>
-        </aside>
-        
-        <section>  
-            <div class="about-me">
-                <h3>Hello everybody, my name is Aaron DeLara and I am currently 19 years old. My birthday is on December 25th, 2003. I am a full-stack web developer and I am also a plant dad. My favorite hobbies are reading One Piece, taking care of my plants, and partying with my family and friends.</h3>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="work">
-               
-            </div>
+        <div class="about-section">
+            <aside class="left" >
+                <h2>About Me</h2>
+            </aside>
+            <section class="right" >
+            <p>My name is Aaron DeLara and I am currently 19 years old. My birthday is on December 25th, 2003. I am a full-stack web developer and I am also a plant dad. My favorite hobbies are reading One Piece, taking care of my plants, and partying with my family and friends.</p>
+            </section>
+        </div>
 
-            <div class="resume">
-
-            </div>
-
-            <div class="contact-info">
-                <ul>
-                    <li>aarondelara64@gmail.com</li>
-                    <li>760-619-0117</li>
-                    <li>Instagram</li>
+        <div class="work-section">
+            <aside class="left" >
+                <h2>Work </h2>
+            </aside>
+            <section class="right" >
+                <ul id="work-list">
+                    <li><a href="https://aarondelara.github.io/Horiseon-refactored/"><img src="./assets/images/horiseon.jpg" id="horiseon"></a></li>
+                    <li><a href="https://aarondelara.github.io/prework-study-guide/"><img src="./assets/images/prework-website.jpg" id="prework"></a></li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        
-    
+        <div class="contact-section">
+            <aside class="left">
+                <h2>Contact Me</h2>
+            </aside>
+            <section class="right">
+                <ul id="contact-links">
+                    <li>(760)-619-0117</li>
+                    <li>aarondelara64@gmail.com</li>
+                </ul>
+            </section>
+        </div>
    </main>
 </body>
-
 </html>

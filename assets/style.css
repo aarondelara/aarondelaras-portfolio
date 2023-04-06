@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items:center;
     padding: 20px 10%;
-    background-color: #000000;
+    background-color: #ffbbbb;
 }
 
 header h1 {
@@ -40,13 +40,13 @@ header li, a, button {
 }
 
 .nav-links li a:hover {
-    color: rgb(81, 207, 155);
+    color: #439ae1;
 }
 
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgb(103, 179, 115);
+    background-color: #439ae1;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -54,61 +54,98 @@ button {
 }
 
 button:hover {
-    background-color: rgb(8, 90, 0);
+    background-color: #0e008d;
 }
 
-.aaron {
-    height: 800px;
+.banner {
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/images/aaron.jpg");
+    background-image: url("../assets/images/one-piece.jpg");
     background-size: cover;
-    background-position: all;
 }
 
-.aaron p {
-    color: #ffffff;
-    font-size: 35px;
+.banner p {
+    color: #000292;
+    font-size: 30px;
 }
 
 main {
     display: flex;
-}
-
-aside {
-    flex: 30%;
-    background-color: #ffffff;
-    padding: 20px;
+    height: 100%;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
-aside h2 {
+aside, ul, li, p {
     font-family: "Montserrat", sans-serif;
-    font-size: 45px;
 }
 
 div {
-    border-style: solid;
-    border-top: black;
-    border-bottom: black;
-    border-right: black;
-    border-color: rgb(75, 190, 75);
+    padding-bottom: 1%;
+    padding-left: 1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
+section {
+    box-shadow: -5px 0 0 0  red;
+    position: relative;
+    height: 100%;
+}
 
-.contact-info li {
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 80%;
+}
+
+aside h2 {
+    font-size: 55px;
+    justify-content: flex-end;
+}
+
+.about-section p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1%;
+    font-size: 25px;
+}
+
+.work-section ul {
     list-style: none;
-    display: inline-block;
-    padding: 1.8% 20px;
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 1%;
 }
 
-.contact-me section {
-    width: max-content;
-    height: max-content;
-    margin-bottom: auto;
-    padding: center;
-    
+#work-list img {
+    display: flex;
+    height: 300px;
+    filter: grayscale(90%);
+    border-style: solid;
+    border-color: rgb(0, 121, 219);
 }
 
+#work-list img:hover{
+    filter: none;
+    transition: filter .2s ease-in-out;
+    transform: scale(1.5);
+}
 
+.contact-section ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.contact-section li {
+    padding-right: 10px;
+    height: 100px;
+}
